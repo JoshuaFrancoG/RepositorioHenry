@@ -1,56 +1,111 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>first website</title>
-</head>
-    <body>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>first website</title>
+        <link rel="stylesheet" type="text/css" href="./style.css"/>
+        <link rel="stylesheet" type="text/css" href="./reset.css"/>
+    </head>
+
+    <body class="background">
+
         <header>
-            <h1>Timber Home Shop</h1>
-            
             <div>
-                <a href="">HOME</a>
-                <a href="./products.html">PRODUCTOS</a>
-                <a href="./contact.html">CONTACTO</a>
+                    <div id="top-bar-back"><div id="top-bar"></div></div>
+
+                <div class="title-box sort-title-boxes">
+                    <div id="sort-title-box-left">
+                        
+                        <h1 id="title-text">Timber Home</h1>
+                        
+                        <p id="title-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius ipsum modi eligendi, dolores esse perspiciatis error quae accusamus!</p>
+                        
+                        <button type="button" id="cuppon_button">25% Descuento Aqui</button>
+                        
+                    </div>
+
+                    <div id="sort-title-box-middle"></div>
+
+                    <div id="sort-title-box-right">
+                        <a class="title-button-search title-side" href="./index.html">Buscar</a>
+                        <a class="title-button-register title-side" href="./index.html">Registro</a>
+                        <a class="title-button-follow title-side" href="./index.html">Siguenos</a>
+
+                    </div>
+                
+                </div>
+
             </div>
-        
+
+            
+
         </header>
 
         <main>
-            <img src="./src/indeximg.jpg">
-            
-            <section>
-                <h2>Titulo de seccion sobre la calidad de productos</h2>
+            <div id="navigation-bar">
+                <a class="pages-bar-text">HOME</a>
+                <a class="pages-bar-text" href="./products.html">PRODUCTOS</a>
+                <a class="pages-bar-text" href="./contact.html">CONTACTO</a>
+                <a class="pages-bar-text" href="./shipings.html">SHIPPING</a>
 
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente fugit iusto necessitatibus libero itaque dolorem<br> 
-                ullam, fuga esse? Quasi natus magnam quis unde doloribus praesentium veniam repudiandae optio incidunt molestiae.</p>
+            </div>
 
-                <ul>
-                    <li>Madera de larga vida y duracion</li>
-                    <li>Ensambles rapidos y a domicilio</li>
-                    <li>5 años de garantia</li>
-                </ul>
-
-            </section>
-
-            <section>
-                <p>Conoce nuestros productos dando click aqui</p>
-
-                <a href="./products.html">-Productos</a>
-
-            </section>
+            <img src="./src/cottage_background.jpg" alt="" id="main-background-img">
 
         </main>
 
         <footer>
-            <p> </p>
-
-            <span>Privacidad</span>
-            <span>Cookies</span>
 
         </footer>
 
+        <!-- <header id="titlebox">
+            <h1 id="title-text">Timber Home Shop</h1>        
+        </header>
+
+        <main class="body-margin">
+            <div id="itembar">
+                <a class="item-bar-text">HOME</a>
+                <a class="item-bar-text" href="./products.html">PRODUCTOS</a>
+                <a class="item-bar-text" href="./contact.html">CONTACTO</a>
+
+            </div>
+
+            <div id="body-container">
+                <img src="./src/indeximg.jpg">
+                
+                <section>
+                    <h2>Titulo de seccion sobre la calidad de productos</h2>
+
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente fugit iusto necessitatibus libero itaque dolorem<br> 
+                    ullam, fuga esse? Quasi natus magnam quis unde doloribus praesentium veniam repudiandae optio incidunt molestiae.</p>
+
+                    <ul>
+                        <li>Madera de larga vida y duracion</li>
+                        <li>Ensambles rapidos y a domicilio</li>
+                        <li>5 años de garantia</li>
+                    </ul>
+
+                </section>
+
+                <section>
+                    <p>Conoce nuestros productos dando click aqui</p>
+
+                    <a href="./products.html">-Productos</a>
+
+                </section>
+            </div>
+
+        </main>
+
+        <footer class="body-margin">
+            
+            <a href="">Privacidad</a>
+            <a href="">Cookies</a>
+
+        </footer> -->
+
     </body>
-    
+
 </html>

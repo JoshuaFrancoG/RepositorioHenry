@@ -4,80 +4,79 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>first website</title>
+    <link rel="stylesheet" type="text/css" href="./style.css"/>
+    <link rel="stylesheet" type="text/css" href="./reset.css"/>
 </head>
     <body>
-        <header>
-            <h1>Timber Home Shop</h1>
+        <header id="titlebox">
+            <h1 id="title-text">Timber Home Shop</h1>
+        </header>
             
-            <div>
-                <a href="./index.html">HOME</a>
-                <a href="">PRODUCTOS</a>
-                <a href="./contact.html">CONTACTO</a>
+        <main class="body-margin">
+            <div id="itembar">
+                <p>
+                <a class="item-bar-text" href="./index.html">HOME</a>
+                <a class="item-bar-text" href="">PRODUCTOS</a>
+                <a class="item-bar-text" href="./contact.html">CONTACTO</a>
+                </p>
             </div>
 
-        </header>
+            <section class="product-container">
 
-            <h2>Productos de nuestra tienda</h2>
+                <article class="product-item">
+                    <h3>Mesa comedor pequeña</h3>
+                    
+                    <img src="./src/mesacomedor.webp" class="product-image">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, quae! Nam enim consectetur architecto.<br> 
+                        Eos adipisci perspiciatis nulla iusto temporibus aliquid earum, id modi, sed delectus esse architecto culpa repudiandae.</p>
 
-            <main>
-                <section>
+                    <ul>
+                        <!-- <li>caracteristica del mueble</li>
+                        <li>tamaño del mueble</li>
+                        <li>tipo de madera</li> -->
+                    </ul>
 
-                   <article>
-                        <h3>Mesa comedor pequeña</h3>
+                </article>
 
-                        <img src="./src/mesacomedor.webp" width="250">
-                        <div>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, quae! Nam enim consectetur architecto.<br> 
-                            Eos adipisci perspiciatis nulla iusto temporibus aliquid earum, id modi, sed delectus esse architecto culpa repudiandae.</p>
-                        </div>
+                <article class="product-item">
+                    <h3>Silla de comedor sin brazos</h3>
 
-                        <ul>
-                            <li>caracteristica del mueble</li>
-                            <li>tamaño del mueble</li>
-                            <li>tipo de madera</li>
-                        </ul>
+                    <img src="./src/sillacomedor.jpg" class="product-image">
 
-                   </article>
+                    <div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, quae! Nam enim consectetur architecto.<br> 
+                        Eos adipisci perspiciatis nulla iusto temporibus aliquid earum, id modi, sed delectus esse architecto culpa repudiandae.</p>
+                    </div>
 
-                   <article>
-                        <h3>Silla de comedor sin brazos</h3>
+                    <ul>
+                        <!-- <li>caracteristica del mueble</li>
+                        <li>tamaño del mueble</li>
+                        <li>tipo de madera</li> -->
+                    </ul>
 
-                        <img src="./src/sillacomedor.jpg" width="250">
+                </article >
 
-                        <div>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, quae! Nam enim consectetur architecto.<br> 
-                            Eos adipisci perspiciatis nulla iusto temporibus aliquid earum, id modi, sed delectus esse architecto culpa repudiandae.</p>
-                        </div>
+                <article class="product-item">
+                    <h3>Mueble largo</h3>
 
-                        <ul>
-                            <li>caracteristica del mueble</li>
-                            <li>tamaño del mueble</li>
-                            <li>tipo de madera</li>
-                        </ul>
+                    <img src="./src/mueble.webp" class="product-image">
 
-                   </article>
+                    <div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, quae! Nam enim consectetur architecto.<br> 
+                        Eos adipisci perspiciatis nulla iusto temporibus aliquid earum, id modi, sed delectus esse architecto culpa repudiandae.</p>
+                    </div>
 
-                   <article>
-                        <h3>Mueble largo</h3>
+                    <ul>
+                        <!-- <li>caracteristica del mueble</li>
+                        <li>tamaño del mueble</li>
+                        <li>tipo de madera</li> -->
+                    </ul>
 
-                        <img src="./src/mueble.webp" width="250">
+                </article>
 
-                        <div>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, quae! Nam enim consectetur architecto.<br> 
-                            Eos adipisci perspiciatis nulla iusto temporibus aliquid earum, id modi, sed delectus esse architecto culpa repudiandae.</p>
-                        </div>
+            </section>
 
-                        <ul>
-                            <li>caracteristica del mueble</li>
-                            <li>tamaño del mueble</li>
-                            <li>tipo de madera</li>
-                        </ul>
-
-                   </article>
-
-                </section>
-
-            </main>
+        </main>
 
             <footer>
                 <p> </p>
@@ -88,5 +87,5 @@
             </footer>
 
     </body>
-    
+
 </html>
